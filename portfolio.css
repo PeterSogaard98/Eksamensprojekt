@@ -81,10 +81,6 @@ section{
   background-color: #36382d;
 }
 
-.button{
-  position: sticky;
-}
-
 .button-about{
   max-width: 100%;
   height: auto;
@@ -258,5 +254,15 @@ section{
   .about-page-section .about{
     display: flex;
     flex-direction: row;
+  }
+
+  .content-page-section .content{
+    display: flex;
+    flex-direction: column;
+    background-color: #36382d;
+  }
+
+  .content-page-section .image{
+    grid-template-columns: repeat(5, 1fr);
   }
 }

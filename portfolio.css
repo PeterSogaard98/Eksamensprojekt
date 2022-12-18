@@ -114,6 +114,10 @@ section{
   background-color: #1b1924;
 }
 
+.content-page-section .content{
+  background-color: #36382d;
+}
+
 .button-content{
   max-width: 100%;
   height: auto;
@@ -162,6 +166,12 @@ section{
   display: grid;
   gap: 20px;
   grid-template-rows: repeat(2,1fr);
+}
+
+#img-content-page > *{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(10, 1fr);
 }
 
 .text{

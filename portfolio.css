@@ -201,6 +201,7 @@ section{
   margin: 20px 0px 0px 0px;
   padding-left: 10px;
   font-family: sans-serif;
+
 }
 
 .footer{
@@ -330,4 +331,5 @@ section{
   .content-page-section .image .pic6{
     grid-column-start: 3;
   }
+
 }
